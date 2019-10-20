@@ -1,0 +1,27 @@
+{
+  "name": "feedly-more",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.0",
+    "dompurify": "^2.0.6",
+    "jsdom": "^15.2.0",
+    "readability": "git+https://github.com/mozilla/readability.git"
+  },
+  "devDependencies": {
+    "@types/dompurify": "0.0.33",
+    "@types/node": "^12.11.1",
+    "node-loader": "^0.6.0",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
